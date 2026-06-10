@@ -10,14 +10,14 @@ export function Stats() {
   const callCount = timeline.filter(t => t.type === "Call").length;
   const textCount = timeline.filter(t => t.type === "Text").length;
   const videoCount = timeline.filter(t => t.type === "Video").length;
-
+// Count data dynamically
   const data = [
     { name: "Call", value: callCount },
     { name: "Text", value: textCount },
     { name: "Video", value: videoCount }
   ];
 
- 
+  // Colors (Figma style)
   const COLORS = ["#3b82f6", "#a855f7", "#22c55e"];
 
   return (
@@ -30,7 +30,7 @@ export function Stats() {
             Friendship Analytics
           </h1>
 
-         
+          {/* Chart */}
           <PieChart width={300} height={300}>
             <Pie
               data={data}
@@ -47,7 +47,7 @@ export function Stats() {
             <Tooltip />
           </PieChart>
 
-          
+          {/* Legend */}
           <div className="flex justify-center gap-6 mt-6 text-sm">
             <div className="flex items-center gap-2">
               <span className="w-3 h-3 bg-blue-500 rounded-full"></span>
