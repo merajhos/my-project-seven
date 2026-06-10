@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Alex Johnson",
+    "picture": "https://i.pravatar.cc/150?img=1",
+    "email": "alex.johnson@gmail.com",
+    "days_since_contact": 12,
+    "status": "almost due",
+    "tags": ["college", "close friend"],
+    "bio": "Met in university and often go hiking together.",
+    "goal": 14,
+    "next_due_date": "2026-06-20"
+  },
+  {
+    "id": 2,
+    "name": "Sarah Williams",
+    "picture": "https://i.pravatar.cc/150?img=5",
+    "email": "sarah.williams@gmail.com",
+    "days_since_contact": 25,
+    "status": "overdue",
+    "tags": ["work", "mentor"],
+    "bio": "Former colleague who helped me grow professionally.",
+    "goal": 21,
+    "next_due_date": "2026-06-10"
+  },
+  {
+    "id": 3,
+    "name": "Michael Brown",
+    "picture": "https://i.pravatar.cc/150?img=8",
+    "email": "michael.brown@gmail.com",
+    "days_since_contact": 5,
+    "status": "on-track",
+    "tags": ["gym", "fitness"],
+    "bio": "Workout partner and fitness enthusiast.",
+    "goal": 14,
+    "next_due_date": "2026-06-25"
+  },
+  {
+    "id": 4,
+    "name": "Emily Davis",
+    "picture": "https://i.pravatar.cc/150?img=9",
+    "email": "emily.davis@gmail.com",
+    "days_since_contact": 18,
+    "status": "almost due",
+    "tags": ["school", "best friend"],
+    "bio": "Known each other since high school days.",
+    "goal": 21,
+    "next_due_date": "2026-06-18"
+  },
+  {
+    "id": 5,
+    "name": "David Miller",
+    "picture": "https://i.pravatar.cc/150?img=12",
+    "email": "david.miller@gmail.com",
+    "days_since_contact": 30,
+    "status": "overdue",
+    "tags": ["business", "network"],
+    "bio": "Entrepreneur and trusted business contact.",
+    "goal": 14,
+    "next_due_date": "2026-06-08"
+  },
+  {
+    "id": 6,
+    "name": "Olivia Wilson",
+    "picture": "https://i.pravatar.cc/150?img=16",
+    "email": "olivia.wilson@gmail.com",
+    "days_since_contact": 3,
+    "status": "on-track",
+    "tags": ["travel", "friend"],
+    "bio": "Travel companion who loves exploring new places.",
+    "goal": 10,
+    "next_due_date": "2026-06-28"
+  },
+  {
+    "id": 7,
+    "name": "James Anderson",
+    "picture": "https://i.pravatar.cc/150?img=18",
+    "email": "james.anderson@gmail.com",
+    "days_since_contact": 20,
+    "status": "almost due",
+    "tags": ["gaming", "online"],
+    "bio": "Online gaming friend for over five years.",
+    "goal": 21,
+    "next_due_date": "2026-06-16"
+  },
+  {
+    "id": 8,
+    "name": "Sophia Martinez",
+    "picture": "https://i.pravatar.cc/150?img=20",
+    "email": "sophia.martinez@gmail.com",
+    "days_since_contact": 2,
+    "status": "on-track",
+    "tags": ["design", "creative"],
+    "bio": "Graphic designer with a passion for creativity.",
+    "goal": 14,
+    "next_due_date": "2026-06-30"
+  },
+  {
+    "id": 9,
+    "name": "Daniel Taylor",
+    "picture": "https://i.pravatar.cc/150?img=22",
+    "email": "daniel.taylor@gmail.com",
+    "days_since_contact": 27,
+    "status": "overdue",
+    "tags": ["neighbor", "family friend"],
+    "bio": "Family friend and longtime neighbor.",
+    "goal": 21,
+    "next_due_date": "2026-06-09"
+  },
+  {
+    "id": 10,
+    "name": "Emma Thompson",
+    "picture": "https://i.pravatar.cc/150?img=24",
+    "email": "emma.thompson@gmail.com",
+    "days_since_contact": 7,
+    "status": "on-track",
+    "tags": ["book club", "reading"],
+    "bio": "Book club member who enjoys discussing novels.",
+    "goal": 14,
+    "next_due_date": "2026-06-24"
+  }
+]
