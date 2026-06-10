@@ -47,7 +47,7 @@ const Home = () => {
         </button>
       </section>
 
-      {/* Summary Cards */}
+     
       <section className="max-w-5xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-4 mb-10">
         <div className="card bg-base-100 shadow">
           <div className="card-body text-center">
@@ -84,7 +84,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Friends Section */}
+     
       <section className="max-w-6xl mx-auto px-4 pb-10">
         <h2 className="text-2xl font-bold mb-6">
           Your Friends
