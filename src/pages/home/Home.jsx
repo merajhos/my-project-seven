@@ -53,7 +53,7 @@ const Home = () => {
         <div className="card bg-base-100 shadow">
           <div className="card-body text-center">
             <h2 className="text-3xl font-bold">{friends.length}</h2>
-            <p>Total Friends!!!</p>
+            <p>Total Friends</p>
           </div>
         </div>
 
