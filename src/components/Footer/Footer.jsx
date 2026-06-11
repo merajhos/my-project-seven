@@ -9,7 +9,7 @@ const Footer = () => {
         <h2 className="text-xl font-bold mb-2">KeenKeeper</h2>
 
         <p className="text-sm text-gray-300 mb-4">
-          Stay connected with your friends and never lose touch again.
+          Your personal shelf of meaningful connections. Browse, tend, and nurture the relationships that matter most.       
         </p>
 
         {/* Social Icons */}

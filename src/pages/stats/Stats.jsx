@@ -21,17 +21,19 @@ export function Stats() {
   const COLORS = ["#3b82f6", "#a855f7", "#22c55e"];
 
   return (
+    
     <div className="bg-gray-50 min-h-screen flex flex-col">
-
+        <h1 className="my-5 font-bold text-4xl mx-auto">Friendship Analytics</h1>
       <div className="flex-1 p-6">
         <div className="max-w-xl mx-auto bg-white p-6 rounded-2xl shadow text-center">
 
-          <h1 className="text-2xl font-bold mb-6">
-            Friendship Analytics
+          <h1 className="text-2xl text-left font-medium mb-6">
+            By Interaction Type
           </h1>
 
          
-          <PieChart width={300} height={300}>
+        <div className="flex justify-center ">
+            <PieChart width={300} height={300}>
             <Pie
               data={data}
               dataKey="value"
@@ -46,6 +48,7 @@ export function Stats() {
             </Pie>
             <Tooltip />
           </PieChart>
+        </div>
 
           
 

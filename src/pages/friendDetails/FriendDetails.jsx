@@ -83,7 +83,7 @@ const FriendDetails = () => {
                 ))}
               </div>
 
-              {/* Bio */}
+   
               <div className="mt-5">
                 <h3 className="font-semibold">Bio</h3>
                 <p className="text-sm text-gray-500">
@@ -91,7 +91,7 @@ const FriendDetails = () => {
                 </p>
               </div>
 
-              {/* Email */}
+              
               <div className="mt-4">
                 <h3 className="font-semibold">Email</h3>
                 <p className="text-sm text-gray-500">
@@ -99,8 +99,8 @@ const FriendDetails = () => {
                 </p>
               </div>
 
-              {/* Action Buttons */}
-              <div className="grid grid-cols-3 gap-2 mt-6">
+             
+              <div className="flex flex-col gap-2 mt-6">
 
                 <button className="btn btn-warning btn-sm">
                   <Clock size={16} />

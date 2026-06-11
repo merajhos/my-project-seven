@@ -38,7 +38,8 @@ const Home = () => {
         </h1>
 
         <p className="text-gray-500 mt-3">
-          Never miss an important connection again.
+          Your personal shelf of meaningful connections. Browse, tend, and nurture the
+          relationships that matter most.
         </p>
 
         <button className="btn btn-success mt-5">
@@ -61,7 +62,7 @@ const Home = () => {
             <h2 className="text-3xl font-bold">
               {friends.filter((f) => f.status === "overdue").length}
             </h2>
-            <p>Due Soon</p>
+            <p>On Track</p>
           </div>
         </div>
 
@@ -70,7 +71,7 @@ const Home = () => {
             <h2 className="text-3xl font-bold">
               {friends.filter((f) => f.status === "on-track").length}
             </h2>
-            <p>On Track</p>
+            <p>Need Attention</p>
           </div>
         </div>
 
@@ -79,7 +80,7 @@ const Home = () => {
             <h2 className="text-3xl font-bold">
               {friends.filter((f) => f.status === "almost due").length}
             </h2>
-            <p>Almost Due</p>
+            <p>Interactions This Month</p>
           </div>
         </div>
       </section>
