@@ -1,33 +1,46 @@
-import {  Route, Routes } from "react-router-dom";
+
+import { Route, Routes } from "react-router-dom";
 import { Toaster } from "react-hot-toast";
 
-
-import Home from "./pages/home/Home";
-import FriendDetails from "./pages/friendDetails/FriendDetails";
-import Timeline from "./pages/timeLine/Timeline";
-import { Stats } from "./pages/stats/Stats";
-import NotFound from "./pages/NotFound/NotFound";
 import Navbar from "./components/Navbar/Navbar";
+import Home from "./pages/home/Home";
+import ProjectDetails from "./pages/projectDetails/ProjectDetails";
+import NotFound from "./pages/NotFound/NotFound";
 
-
-function App() {
+const App = () => {
   return (
     <>
-      
-      <Toaster position="top-right" />
-      
+      {/* Toast Notification */}
+      <Toaster
+        position="top-right"
+        toastOptions={{
+          duration: 3000,
+        }}
+      />
+
+      {/* Navbar */}
       <Navbar />
+
+      {/* Routes */}
       <Routes>
-        <Route path="/" element={ <Home></Home>} />
-        <Route path="/timeline" element={ <Timeline></Timeline>} />
-        <Route path="/stats" element={<Stats></Stats>} />
-        <Route path="/friend/:id" element={ <FriendDetails></FriendDetails>} />
+        {/* Home */}
+        <Route path="/" element={<Home />} />
 
-        <Route path="*" element={<NotFound />} />
+        {/* Dynamic Project Details */}
+        <Route
+          path="/project/:id"
+          element={<ProjectDetails />}
+        />
+
+        {/* 404 Page */}
+        <Route
+          path="*"
+          element={<NotFound />}
+        />
       </Routes>
-
     </>
   );
-}
+};
 
 export default App;
+
